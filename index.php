@@ -98,7 +98,7 @@
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
 				<br>
-                    <h2>Cooking languages</h2>
+                    <h2>Cooking Options</h2>
                     <hr class="small">
 					<br>
 					<br>
@@ -112,7 +112,7 @@
                                 <br>
 								<br>
 								<br>
-								<a href="#" class="btn btn-dark btn-lg">Crafting</a>
+								<a href="order.php" class="btn btn-dark btn-lg">Crafting</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -125,19 +125,19 @@
 								<br>
 								<br>
 								<br>
-								<a href="menu.html" class="btn btn-dark btn-lg">To Menu</a>
+								<a href="menu.php" class="btn btn-dark btn-lg">To Menu</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
 							<h4>
-                                    <strong>CLASS="US"</strong>
+                                    <strong>CLASS="Random"</strong>
                                 </h4>
-                                <p>Some zeroes and ones about our company</p>
+                                <p>Choose from a random pizza that we generated for you.</p>
                                 <br>
 								<br>
 								<br>
-								<a href="#portfolio" class="btn btn-dark btn-lg">About Us</a>
+								<a href="orderRandom.php" class="btn btn-dark btn-lg">Random</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">

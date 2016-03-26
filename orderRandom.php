@@ -47,17 +47,14 @@
             <li class="sidebar-brand">
                 <a href="#top"  onclick = $("#menu-close").click(); >Coding Pizza</a>
             </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+             <li>
+                <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >Services</a>
+                <a href="order.php" >Order</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="orderRandom.php">Order Random</a>
             </li>
         </ul>
     </nav>

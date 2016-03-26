@@ -70,7 +70,7 @@
 					}
 					
 					echo '<div class="form-suc">';
-					echo 'You hungry animal, you just ordered a <b>'.$sizeName.'</b> pizza with <b>'.$extras.'</b><br>';
+					echo 'You just ordered a <b>'.$sizeName.'</b> pizza with <b>'.$extras.'</b><br>';
 					echo 'And this, my hungry friend, will cost you <b>$'.$totalPrice.'</b>! The pizza will be delivered at '.$_POST['address'];
 					echo '</div>';
 					
