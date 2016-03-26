@@ -1,0 +1,79 @@
+.my-form{
+	width: 500px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 15px;
+}
+
+.my-form select, .my-form textarea{
+	border: 1px solid #555;
+	padding: 5px;
+	background: #fff;
+	margin: 10px 0;
+	width: 100%;
+	color: #444;
+}
+
+.my-form .checkboxes label{
+	color: #333;
+	margin: 5px 0;
+}
+
+.my-form .checkboxes input[type="checkbox"]{
+	display: none;
+}
+
+.my-form .checkboxes span{
+	width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: #fff;
+	border: 1px solid #666;
+	float: left;
+	margin-right: 15px;
+} 	
+
+.my-form .checkboxes input:checked + span {
+    background: url("../img/Pizza-icon.png") center center;
+	background-size: 20px 20px;
+}
+
+.my-form input[type="submit"]{
+	width: 100%;
+	display: block;
+	background: #0083ae;
+	height: 60px;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	
+}
+
+.my-form .input-header{
+	color: #333;
+	font-weight: bold;
+	border-bottom: 1px solid #555;
+	margin-bottom: 10px;
+}
+
+.form-error{
+	width: 500px;
+	margin: 0 auto;
+	background: #e81212;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+.form-suc{
+	width: 500px;
+	margin: 0 auto;
+	background: #2dbf00;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
